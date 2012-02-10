@@ -166,7 +166,7 @@ int CSvrMain::Negotiate()
 			si.format.redMax     = Swap16IfLE(0x1F);	  /* maximum red value */
 			si.format.greenMax   = Swap16IfLE(0x1F);		/* similar for green */
 			si.format.blueMax    = Swap16IfLE(0x1F);		/* and blue */
-#ifdef UNDER_CE
+#ifndef UNDER_CE
 			si.format.redShift   = 0; 		/* number of shifts needed to get the red */
 			si.format.greenShift = 5;	  	/* similar for green */
 			si.format.blueShift  = 10;		/* and blue */

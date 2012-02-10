@@ -43,7 +43,7 @@ DWORD WINAPI RectangleSend( LPVOID parent )
 	rfbFramebufferUpdateMsg        *fbup = (rfbFramebufferUpdateMsg *) buffer;
 	rfbFramebufferUpdateRectHeader *surh = (rfbFramebufferUpdateRectHeader*) (fbup + 1);
 	BYTE                           *startpix = (BYTE *) (surh + 1);
-	int                            x,y,j,k;
+	int                            x,y,j;
 	BYTE                           *pix;
   int                            x_blocks = su->m_x_blocks;
   int                            y_blocks = su->m_y_blocks;
@@ -192,13 +192,6 @@ DWORD WINAPI RectangleSend( LPVOID parent )
                   yoffs = yoffs; /* Problem with Y_BLOCK_SIZE not being multiple of Y resolution */
                 }
 								for (j = ylines-1; j >=0; j--) {
-									short *block = (short *)((BYTE *)pBuffer + (xoffs + (j + yoffs) * rc.right) * BytesPerPixel);
-									for (k = 0; k < X_BLOCK_SIZE; k++)
-									{
-										short temp = block[k];
-										temp = ((temp & 0xFFE0) << 1) | (temp & 0x001F);
-										block[k] = temp;
-									}
 #if 1 /* For 16 bit palette */
 									memcpy(pix, (BYTE*) pBuffer + (xoffs + (j + yoffs) * rc.right) * BytesPerPixel, X_BLOCK_SIZE * BytesPerPixel);
 									pix += BytesPerLine;
