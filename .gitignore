@@ -1,0 +1,11 @@
+*/bin/
+*/obj/
+*/FiRMS_IMX31 (ARMV4I)/
+*/FiRMS_IMX31_WinCE60 (ARMV4I)/
+*/Debug/
+*/Release/
+*/*.user
+*.vsmdi
+*.suo
+*.ncb
+*.bak
