@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WinVNCSvr">
+</Property><Property Name="解决方案文件" Value="E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.sln">
+</Property><Property Name="用户选项文件" Value="E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.suo">
+</Property><Property Name="Date" Value="2016年4月5日">
+</Property><Property Name="Time" Value="17:41">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="WinVNCSvr.sln" Description="创建备份文件 E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.sln.old 时出错">
+</Event><Event ErrorLevel="0" Project="" Source="WinVNCSvr.suo" Description="文件已成功备份为 E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.suo.old">
+</Event><Event ErrorLevel="0" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="Converting project file 'E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.vcproj'.">
+</Event><Event ErrorLevel="1" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="Failed to upgrade platform 'FiRMS_IMX31_WinCE60 (ARMV4I)'. Please make sure you have it installed under '%vctargetspath%\platforms\FiRMS_IMX31_WinCE60 (ARMV4I)'">
+</Event><Event ErrorLevel="1" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="Failed to upgrade 'Release|FiRMS_IMX31_WinCE60 (ARMV4I)'. Please make sure you have the corresponding platform installed under '%vctargetspath%\platforms\FiRMS_IMX31_WinCE60 (ARMV4I)'">
+</Event><Event ErrorLevel="1" Project="E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.vcproj" Source="" Description="Cannot load the project due to a corrupt project file.">
+</Event><Event ErrorLevel="2" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="The project configuration dimension name/value &quot;(Platform, Win32)&quot; was not found in the project manifest.">
+</Event><Event ErrorLevel="2" Project="E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.vcproj&#xA;Line: 126&#xA;Column: 5&#xA;Error Message:&#xA;系统错误: -2147154677。&#xA;&#xA;The file 'E:\zjf\Github\wincevncsvr\WinVNCSvrVC6\WinVNCSvr.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="WinVNCSvr" Source="WinVNCSvr.vcproj" Description="未转换">
+</Event><Event ErrorLevel="0" Project="" Source="WinVNCSvr.sln" Description="解决方案文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="" Source="WinVNCSvr.sln" Description="无需转换">
+</Event></UpgradeLog>

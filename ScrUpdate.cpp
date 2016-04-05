@@ -251,6 +251,8 @@ CScrUpdate::CScrUpdate()
   m_x_blocks = (m_iScreenWidth + X_BLOCK_SIZE - 1) / X_BLOCK_SIZE;
   m_y_blocks = (m_iScreenHeight + Y_BLOCK_SIZE - 1) / Y_BLOCK_SIZE;
 
+	m_iScreenWidth = 256;
+	m_iScreenHeight = 256;
   if (m_iScreenWidth % X_BLOCK_SIZE ||
       m_iScreenHeight % Y_BLOCK_SIZE)
     MessageBox(NULL, TEXT("This is not gonna work....\nblock sizes need to be multiple\nof X&Y resolution.\nPrepare for GPF...."), TEXT("VNCSvr"), MB_OK);
